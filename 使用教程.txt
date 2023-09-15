@@ -31,6 +31,7 @@ S3_UPLOAD_KEY + S3_UPLOAD_SECRET
         }
     ]
 }
+还需要在s3 里面的跨域中添加  http://localhist
 
 二、SECRET
 注册一个账号，然后点击   开发人员  复制 私钥 到配置文件
@@ -44,5 +45,5 @@ EMAIL_SERVER=smtp://localhost:25
 四、REPLICATE
 注册账号完，就找到对应的模型 Dreambooth 设置一下就行
 
-
+测试 strip 支付 不需要使用真实的卡 只需要 https://stripe.com/docs/testing 在这里弄个卡号就行，就这么简单 很好，在训练啦。。。。
 目前跑到这个位置，就差支付 测试了
