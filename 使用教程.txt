@@ -1,3 +1,6 @@
+本地运行教程
+
+
 yarn prisma:migrate:dev 这一步在win运行报错  需要添加代理
 命令行窗口输入： yarn config set proxy http://proxy_host:port
 命令行窗口输入： yarn config set https-proxy http://proxy_host:port
@@ -47,3 +50,7 @@ EMAIL_SERVER=smtp://localhost:25
 
 测试 strip 支付 不需要使用真实的卡 只需要 https://stripe.com/docs/testing 在这里弄个卡号就行，就这么简单 很好，在训练啦。。。。
 目前跑到这个位置，就差支付 测试了
+
+
+测试完之后，一张照片花了我 $ 0.01
+September 15, 2023 - September 30, 2023	In progress	$0.01
